@@ -12,7 +12,7 @@ This program asks the user to input an integer in the range 0 < n < 100 and prin
 int main()
 {
 	int num;
-	std::cout << "Please enter an integer: ";
+	std::cout << "Please enter an integer: "; // between 0 and 100
 	do {
 		std::cin >> num;
 		if ((num > 0) && (num < 100)) {
