@@ -1,7 +1,12 @@
 /*
-This program asks the user to input two integers L and U, 
-and prints out all integers in the range L ≤ i < U separated by spaces.
+Author: Maya Lavi
+Course: CSCI-135
+Instructor: Zamansky
+Assignment: Lab 2B
+
+This program prints out all integers in the range L ≤ i < U separated by spaces.
 */
+
 
 #include <iostream>
 
