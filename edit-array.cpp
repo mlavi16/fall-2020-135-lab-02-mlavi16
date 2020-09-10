@@ -33,7 +33,9 @@ int main()
 		std::cout << "Input value: ";
 		std::cin >> value; //assuming input is a number
 
-		array[index] = value;
+		if ((index >= 0) && (index < 10)) {
+			array[index] = value;
+		}
 
 	} while ((index >= 0) && (index < 10));
 
